@@ -1,0 +1,166 @@
+<!-- semantic tags are used for layout of your website and using right tag will help you in good seo by google
+there are three semantic tags
+header
+main
+footer -->
+
+<!-- in main we can use section tag to make differernt section tag for a section on your page
+
+Article tag for an article on your page
+
+Aside tag for content aside main content(ads) as you dont want google to interprate your website from you ads content which is not yours so you must use aside -->
+
+<!-- anchor tag if we use target="_main" it will open the page in new tab  & we can also make our pitchers clickable name ki jagh vo link image ki link daal do  -->
+
+<!-- Div Tag is very important tag it is non semantic tag
+Div is a container used for other HTML elements
+it is BLock element (Takes Full width) where inline element only take that much width that required 
+Div real advantage when we have to make change on many element collectively  -->
+
+<!-- 
+Span tag , is also a container used for other HTML elements
+Inline Element (takes widht as per size) -->
+<!-- 
+List in HTML used to represent real life list  data 
+unordered and ordered two type of list 
+ul stand for unorder list and li stand for list item 
+in order list all the item are come with number not bullet points  -->
+
+
+<!-- Tables in HTML used to represent real life table data
+<tr></tr> used to display table row
+<td></td> used to display table data
+<th></th> used to display table header  -->
+
+<!-- form in html are used to collect data from the user 
+example sign up/login/help requests/ contact me  -->
+<!-- Action attribute is used to define what action needs to performend when a form is sumitted
+basicaly it is defining where your sumbited information will go  -->
+<!-- there are different element in form 
+Input 
+lable  use to give lable to input help in radio button(only one option ticked) if we use lable and give same name in radio button then text  is also cliclable and this functionallty is very imp of people with bad eyesight   -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <main>
+        <section>
+            edcution : MNIT Jaipur(civil) | School(sps)
+        </section>
+        <section>
+            projects : Credit Risk Analysis | loan Default Dashboard 
+        </section>
+        <section> Skills: Python | DSA | Webdevelopment | Machine Learning
+        </section>
+
+        <article>
+            My story: I was born in a rawatsar and belong to business baniya family 
+        </article>
+
+        <a href="https://www.google.com/" target="_main">Google</a>
+        <br>
+        <a href="https://www.google.com/" target="_main"><img src="google.png" alt="Google" width="100" ></a>
+        <br>
+
+        <div>
+            <p>hello</p>
+            <p>hi</p>
+            <p>Nameste</p>
+        </div>
+
+        <div>
+            <p>bye</p>
+            <p>Good bye</p>
+            <p>bye bye</p>
+        </div>
+        
+
+        <span> bye</span>
+
+        <ul>
+            <li>Apple</li>
+                <ul>
+                    <li>color: red</li>
+                    <li>season: winter</li>
+                </ul>
+            <li>Mango</li>
+                <ul>
+                    <li>color: yellow</li>
+                    <li>season: summer</li>
+                </ul>
+            <li>lichi</li>
+        </ul>
+
+
+        <ol>
+            <li>Apple</li>
+                <ol>
+                    <li>color: red</li>
+                    <li>season: winter</li>
+                </ol>
+            <li>Mango</li>
+                <ol>
+                    <li>color: yellow</li>
+                    <li>season: summer</li>
+                </ol>
+            <li>lichi</li>
+        </ol>
+
+
+        <table>
+            <caption>Student Data</caption>
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Aditya</td>
+                <td>1164</td>
+                </tr>
+
+            </tbody>
+            
+
+
+        </table>
+
+        <div>
+            <form action="/action.php">
+                <input type="text" placeholder="User Name">
+                <input type="password" placeholder="password">
+
+                <input type="radio" value="class XI" name="class">class XI
+                <input type="radio" value="class XII" name="class">class XII
+            </form>
+        </div>
+
+
+
+
+
+
+        <Aside>
+            this is a add
+        </Aside>
+
+    </main>
+    <footer>
+       <h5>Contact me at Hello@123</h3> 
+    </footer>
+</body>
+</html>
